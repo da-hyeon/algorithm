@@ -26,7 +26,7 @@ class Base:
         return num_list
 
 
-class _2798(Base):
+class _10870(Base):
     count = 0
     target_number = 0
     card_list = []
@@ -67,4 +67,9 @@ class _2798(Base):
         print(max_sum)
 
 
-_2798().run()
+text = """10 500
+93 181 245 214 315 36 185 138 216 295"""
+
+obj = _10870().initialize(input=text)
+# _10870.initialize(file_name='input.txt')
+obj.run()
